@@ -30,7 +30,7 @@ function App() {
   "mongoose",
   "npm",
   "python",
-  "c"
+  "c","sql"
   ,
 
   ]} />

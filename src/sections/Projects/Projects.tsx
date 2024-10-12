@@ -1,6 +1,7 @@
 import styles from './ProjectsStyles.module.css';
-import viberr from '../../assets/viberr.png';
-import freshBurger from '../../assets/fresh-burger.png';
+import mlmLogo from "../../assets/mlm.webp"
+import easyNotesLogo from "../../assets/main.png"
+import airBnbLogo from '../../assets/airbnb.png';
 import hipsster from '../../assets/hipsster.png';
 import fitLift from '../../assets/fitlift.png';
 import ProjectCard from '../../common/ProjectCard';
@@ -11,29 +12,29 @@ function Projects() {
       <h1 className="sectionTitle">Projects</h1>
       <div className={styles.projectsContainer}>
         <ProjectCard
-          src={viberr}
-          link="https://github.com/Ade-mir/company-landing-page-2"
-          h3="Viberr"
-          p="Streaming App"
+          src={mlmLogo}
+          link="https://github.com/ritikyugatechno/MPS-MLM-Backend"
+          h3="MLM Website"
+          p="Marketing Web App"
         />
         <ProjectCard
-          src={freshBurger}
-          link="https://github.com/Ade-mir/company-landing-page-2"
-          h3="Fresh Burger"
-          p="Hamburger Restaurant"
+          src={easyNotesLogo}
+          link="https://github.com/karan-gander/easy-notes-frontend"
+          h3="Easy Notes"
+          p="Notes Provider"
         />
         <ProjectCard
-          src={hipsster}
-          link="https://github.com/Ade-mir/company-landing-page-2"
-          h3="Hipsster"
-          p="Glasses Shop"
+          src={airBnbLogo}
+          link="https://github.com/karan-gander/airbnb"
+          h3="Airbnb Clone"
+          p="Hotel Boolking website"
         />
-        <ProjectCard
+        {/* <ProjectCard
           src={fitLift}
           link="https://github.com/Ade-mir/company-landing-page-2"
           h3="FitLift"
           p="Fitness App"
-        />
+        /> */}
       </div>
     </section>
   );
